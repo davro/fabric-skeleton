@@ -1,0 +1,14 @@
+{
+    "name": "davro/fabric-skeleton",
+    "description": "A skeleton project for the Fabric framework.",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "davro/fabric": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
