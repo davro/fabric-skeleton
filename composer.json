@@ -27,7 +27,7 @@
     },
     "scripts" : {
         "test" : "./bin/phpunit tests/",
-	"sniff" : "./bin/phpcs  --standard=PSR12 src/"
+	"sniff" : "./bin/phpcs  --standard=PSR12 app/"
     },
     "autoload": {
         "psr-4": {
